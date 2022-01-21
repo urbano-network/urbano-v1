@@ -219,7 +219,7 @@ contract urbano is ERC20, Ownable {
 // constructor
     constructor() ERC20("Urbano Network", "URBANO") {
         transferOwnership(devAddress);
-        uint total_supply = 787000000000000 * 10 ** decimals();
+        uint total_supply = 787000000000 * 10 ** decimals();
         // set gvars
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
         uniswapV2Router = _uniswapV2Router;
